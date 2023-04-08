@@ -54,7 +54,7 @@ function App() {
        <ul className="m-10 flex justify-center flex-wrap gap-10 h-full">
        {content && content.map((item)=>{
              return (
-               <li className="w-[280px] min-h-[300px] relative group
+               <li className="w-[280px] h-[430px] relative group
                 bg-slate-200 hover:opacity-50 rounded-md cursor-pointer
                  border-2 flex flex-col space-between " key={item.id}>
                 <img src={logo} className="w-12 opacity-0 absolute top-[40%] right-[40%] group-hover:opacity-100"/>
@@ -64,7 +64,7 @@ function App() {
              );
            })
          }
-     </ul>
+     </ul>k
         {catchError && <div className="flex text-white justify-center items-start">
            <h1>please try another time...</h1>
           </div>} 
