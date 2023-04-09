@@ -1,5 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import logo from '../public/dd-removebg-preview.png'
+
+
 function App() {
   const [endPoint, setendPoint] = useState("game");
   const [finalPoint, setfinalPoint] = useState("");
